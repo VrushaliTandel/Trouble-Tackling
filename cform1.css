@@ -1,0 +1,29 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+	#nav
+	{
+		border: 1px solid;
+		background-color: #dedae0;
+		float: center;
+		height: 40%;
+		width: 50%;
+		margin: 10% 25%;
+	}
+	strong
+	{
+		font-size: 25px;
+		color: brown;
+	}
+	p
+	{
+		font-size: 20px;
+		color: #00040a;
+	}
+	b
+	{
+		color: #414244;
+	}
+</style>

@@ -1,0 +1,92 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=reset] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: seagreen;
+}
+
+input[type=reset]:hover {
+  background-color: lightblue;
+}
+.container {
+  border-radius: 5px;
+  background-color: #eaf3f7;
+  padding: 100px 60px;
+  float: center;
+  height: 100%;
+  width:100%;
+}
+.con{
+  border-radius: 5px;
+  background-color: #cdcccc;
+  padding: 100px;
+  float: center;
+  width:60%;
+}
+.col {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col1 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col, .col1, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col, .col1, input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
